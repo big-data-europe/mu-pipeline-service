@@ -42,7 +42,7 @@ Add the following snippet to your `docker-compose.yml` to include the pipeline s
 
 ```
 pipeline:
-  image: bde2020/pipeline-service
+  image: bde2020/mu-pipeline-service
   links:
     - database:database
 ```
