@@ -1,4 +1,4 @@
-# Pipeline service
+# Mu Pipeline service
 
 Provides and documents pipeline resources to include in a [mu.semte.ch project](https://mu.semte.ch/).
 
