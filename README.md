@@ -35,7 +35,7 @@ title | dcterms:title | Name of the step
 description | dcterms:description | Description of the step
 code | pip:code | Human readable identifier of the step
 order | pip:order | Sequence number of the step in a pipeline
-status | pip:status | Current status of the step. Value must be one of: `not_started`, `running`, `done`
+status | pip:status | Current status of the step. Value must be one of: `not_started`, `starting`, `running`, `done`, `ready`, `failed`.
 
 ## Integrate pipeline service in a mu.semte.ch project
 Add the following snippet to your `docker-compose.yml` to include the pipeline service in your project.
